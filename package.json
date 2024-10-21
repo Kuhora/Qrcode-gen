@@ -1,11 +1,11 @@
 {
-  "name": "node",
+  "name": "projeto-qrcode",
   "version": "1.0.0",
-  "description": "qr code for e-commerces",
+  "description": "kit de utilidades para e-commerces",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node --env-file=.env src/index.js"
   },
   "keywords": [],
   "author": "",
